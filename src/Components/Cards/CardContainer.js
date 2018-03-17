@@ -10,7 +10,7 @@ export default class CardContainer extends Component {
     };
   }
   renderDetails(content) {
-    console.log(this.state.showDetails);
+    // console.log(this.state.showDetails);
     // this.setState({
     //   showDetails: !this.state.showDetails,
     //   content
