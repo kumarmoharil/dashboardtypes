@@ -1,0 +1,20 @@
+.right-white-border {
+  border-right: 1px solid white;
+}
+.hidden {
+  display: none !important;
+}
+.username-container.dropdown {
+  margin-right: 6vw;
+}
+.username-container a.username-container__elem {
+  border-radius: 2rem;
+}
+.marquee-block {
+  background-color: #26232c;
+  color: #7ce9f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vw;
+}

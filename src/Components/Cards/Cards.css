@@ -1,0 +1,56 @@
+.cards-container {
+  background: #585c68;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+}
+.cards-container .card-block {
+  width: 17rem;
+  margin-right: 5px;
+  height: 13rem;
+  margin-bottom: 5px;
+}
+.cards-container .cards-heading-block {
+  margin: 1rem 0 2rem -4rem;
+  font-weight: 700;
+  color: #fff;
+}
+.card .card-body.card-buttons a {
+  font-size: 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 4px;
+}
+/* Styles for Green Card  */
+/* Common card body color */
+.green-card-color .card-body, .blue-card-color .card-body,
+.navyblue-card-color .card-body {
+    background: #261C10;
+}
+.green-card-color {
+    background: #52ad5e;
+    border: none;
+    color: white;
+}
+.green-card-color .card-body.card-buttons a{
+    background: #52ad5e;
+    border: none;
+}
+/* Styles for blue card */
+.blue-card-color {
+    background: #3D71A1;
+    border: none;
+    color: white;
+}
+/* Styles for navyblue card */
+.navyblue-card-color {
+    background: #2F354B;
+    border: none;
+    color: white;
+}
+.cards-container .row:first-child div.card-footer {
+  padding-top: 3rem;
+}
+.cards-container .card-footer {
+  padding-top: 3rem;
+}

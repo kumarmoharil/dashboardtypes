@@ -1,0 +1,80 @@
+{
+  "greenCard": [
+    {
+      "cardTitle": "Top 3",
+      "gridContent": [
+        "Claims Report 200",
+        "Claims Report 400",
+        "Claims Report 500"
+      ]
+    },
+    {
+      "cardTitle": "Report 300",
+      "gridContent": "Claims Report 300"
+    },
+    {
+      "cardTitle": "Report 400",
+      "gridContent": "Claims Report 400"
+    },
+    {
+      "cardTitle": "Report 500",
+      "gridContent": "Claims Report 500"
+    },
+    {
+      "cardTitle": "Report 550",
+      "gridContent": "Claims Report 550"
+    }
+  ],
+  "blueCard" : [
+    {
+      "cardTitle": "Top 3",
+      "gridContent": [
+        "Claims Report 200",
+        "Claims Report 400",
+        "Claims Report 500"
+      ]
+    },
+    {
+      "cardTitle": "Report 300",
+      "gridContent": "Care 300"
+    },
+    {
+      "cardTitle": "Report 400",
+      "gridContent": "Care 400"
+    },
+    {
+      "cardTitle": "Report 500",
+      "gridContent": "Care 500"
+    },
+    {
+      "cardTitle": "Report 550",
+      "gridContent": "Care 550"
+    }
+  ],
+  "navyBlue" : [
+    {
+      "cardTitle": "Top 3",
+      "gridContent": [
+        "Claims Report 200",
+        "Claims Report 400",
+        "Claims Report 500"
+      ]
+    },
+    {
+      "cardTitle": "Report 300",
+      "gridContent": "Care 300"
+    },
+    {
+      "cardTitle": "Report 400",
+      "gridContent": "Care 400"
+    },
+    {
+      "cardTitle": "Report 500",
+      "gridContent": "Care 500"
+    },
+    {
+      "cardTitle": "Report 550",
+      "gridContent": "Care 550"
+    }
+  ]
+}

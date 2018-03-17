@@ -1,0 +1,11 @@
+* {
+  font-size: 12px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a.button.round {
+  width: 20px;
+}
