@@ -23,34 +23,52 @@
 }
 /* Styles for Green Card  */
 /* Common card body color */
-.green-card-color .card-body, .blue-card-color .card-body,
+.green-card-color .card-body,
+.blue-card-color .card-body,
 .navyblue-card-color .card-body {
-    background: #261C10;
+  background: #261c10;
 }
 .green-card-color {
-    background: #52ad5e;
-    border: none;
-    color: white;
+  background: #52ad5e;
+  border: none;
+  color: white;
 }
-.green-card-color .card-body.card-buttons a{
-    background: #52ad5e;
-    border: none;
+.green-card-color .card-body.card-buttons a {
+  background: #52ad5e;
+  border: none;
 }
 /* Styles for blue card */
 .blue-card-color {
-    background: #3D71A1;
-    border: none;
-    color: white;
+  background: #3d71a1;
+  border: none;
+  color: white;
 }
 /* Styles for navyblue card */
 .navyblue-card-color {
-    background: #2F354B;
-    border: none;
-    color: white;
+  background: #2f354b;
+  border: none;
+  color: white;
 }
 .cards-container .row:first-child div.card-footer {
   padding-top: 3rem;
 }
 .cards-container .card-footer {
   padding-top: 3rem;
+}
+/* Animation for Hover */
+.all-cards-container:hover {
+  -webkit-transform: translate3d(-62.5px, 0, 0);
+  transform: translate3d(-62.5px, 0, 0);
+}
+.green-card-color:hover, .blue-card-color:hover, .navyblue-card-color:hover {
+  z-index: 1;
+  cursor: pointer;
+}
+.all-cards-container:hover .card-block {
+  opacity: 0.3;
+}
+.all-cards-container:hover .card-block:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 1;
 }

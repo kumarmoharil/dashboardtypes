@@ -1,0 +1,14 @@
+.green-card-color:hover,
+.blue-card-color:hover,
+.navyblue-card-color:hover {
+  z-index: 1;
+  cursor: pointer;
+}
+.all-cards-container:hover .card-block {
+  opacity: 0.3;
+}
+.card-block:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 1;
+}

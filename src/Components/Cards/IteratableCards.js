@@ -5,15 +5,25 @@ import map from "lodash/map";
 import cx from "classnames";
 
 export default class IteratableCards extends Component {
-  cardButtonClick(content) {
-    this.props.openDetails(content)
+  constructor() {
+    super();
+    this.state = {
+      showDetails: false
+    };
+  }
+  cardButtonClick(e, content) {
+    e.preventDefault();
+    this.setState({
+      showDetails: !this.state.showDetails
+    });
+    this.props.openDetails(content, this.state.showDetails);
   }
   renderNormalButtons(content) {
     return (
       <a
         href="#"
         className="btn btn-primary"
-        onClick={() => this.cardButtonClick(content)}
+        onClick={(e) => this.cardButtonClick(e, content)}
       >
         {content}
       </a>
@@ -35,11 +45,14 @@ export default class IteratableCards extends Component {
       return this.renderNormalButtons(content);
     }
   }
+  animateCard(e) {
+      console.log('hovering', e.type)
+  }
   renderCards(item, index) {
     const cardColor = cx("card card-block", this.props.cardColorClass);
     return (
-      <div key={index}>
-        <div className={`${cardColor}`}>
+      <div className="card-inner-container" key={index}>
+        <div className={`${cardColor}`} onMouseOver={(e) => this.animateCard(e)}>
           <div className="card-header">{item.cardTitle}</div>
           <div className="card-body card-buttons">
             {this.renderContent(item.gridContent)}

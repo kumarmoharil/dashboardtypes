@@ -11,7 +11,7 @@ class Header extends Component {
     };
   }
 
-  toggle() {
+  toggle(e) {
     this.setState({
       dropdownOpen: !this.state.dropdownOpen
     });
@@ -35,7 +35,8 @@ class Header extends Component {
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                onClick={() => this.toggle()}
+                onMouseOver={(e) => this.toggle(e)}
+                onMouseOut={(e) => this.toggle(e)}
               >
                 User Name
               </a>
